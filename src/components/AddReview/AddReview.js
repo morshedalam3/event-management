@@ -13,7 +13,7 @@ const AddReview = () => {
             description: data.description,
             images: imageUrl
         }
-        const url = `http://localhost:8080/addReview`
+        const url = `https://immense-hamlet-65512.herokuapp.com/addReview`
 
         console.log(CustomerData);
 

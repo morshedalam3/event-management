@@ -7,13 +7,13 @@ const ManageService = () => {
     const [events, setEvents] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:8080/events')
+        fetch('https://immense-hamlet-65512.herokuapp.com/events')
             .then(res => res.json())
             .then(data => setEvents(data))
     }, [])
 
     const deleteEvent =(id, e)=> {
-        fetch(`http://localhost:8080/deleteService/${id}`,{
+        fetch(`https://immense-hamlet-65512.herokuapp.com/deleteService/${id}`,{
             method: 'delete'
         })
         .then(res => res.json())

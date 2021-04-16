@@ -16,7 +16,7 @@ const Inventory = () => {
             description: data.description,
             images: imageUrl
         }
-        const url = `http://localhost:8080/addevent`
+        const url = `https://immense-hamlet-65512.herokuapp.com/addevent`
 
         console.log(productData);
 

@@ -10,7 +10,7 @@ const Shipment = () => {
     const [currentEvent,setCurrentEvent] = useState([])
     const {_id} = useParams();
     useEffect(() => {
-        fetch("http://localhost:8080/events")
+        fetch("https://immense-hamlet-65512.herokuapp.com/events")
         .then(res=>res.json())
         .then(data => {
             setCurrentEvent(data);
@@ -35,7 +35,7 @@ const Shipment = () => {
           paymentId,
           orderTime: new Date()}
 
-      fetch('http://localhost:8080/submitOrder', {
+      fetch('https://immense-hamlet-65512.herokuapp.com/submitOrder', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

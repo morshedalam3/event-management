@@ -10,7 +10,7 @@ const UserBook = () => {
     const [isLoading, setLoading] = useState(true)
     console.log(order)
     useEffect(() => {
-        fetch('http://localhost:8080/orderedEvent?email=' + loggedInUser.email)
+        fetch('https://immense-hamlet-65512.herokuapp.com/orderedEvent?email=' + loggedInUser.email)
             .then(res => res.json())
             .then(data => setOrder(data))
             setLoading(false)

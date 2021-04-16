@@ -13,7 +13,7 @@ const Admin = () => {
             email: data.email,
             images: imageUrl
         }
-        const url = `http://localhost:8080/addAdmin`
+        const url = `https://immense-hamlet-65512.herokuapp.com/addAdmin`
 
         console.log(adminData);
 

@@ -8,7 +8,7 @@ const EventDetails = () => {
     const {_id} = useParams();
 
     useEffect(() => {
-        fetch("http://localhost:8080/events")
+        fetch("https://immense-hamlet-65512.herokuapp.com/events")
         .then(res=>res.json())
         .then(data => {
             setCurrentEvent(data);

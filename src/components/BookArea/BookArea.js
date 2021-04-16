@@ -6,7 +6,7 @@ const BookArea = () => {
     const[events, setEvents] = useState([]);
     console.log(events)
     useEffect(() => {
-        fetch('http://localhost:8080/events')
+        fetch('https://immense-hamlet-65512.herokuapp.com/events')
         .then(res => res.json())
         .then(data => {
             setEvents(data);

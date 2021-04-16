@@ -1,0 +1,59 @@
+[
+    {   
+        "id" : 1,
+        "name" : "Armanul Islam",
+        "images" :"https://i.ibb.co/kBVKtVK/1608733312714.png",
+        "type" : "Manager",
+        "fullDescription" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {   
+        "id" : 2,
+        "name" : "AB.Jhon ",
+        "images" :"https://i.ibb.co/10CtThX/manager.jpg",
+        "type" : "Developer",
+        "fullDescription" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },    
+    {   
+        "id" : 3,
+        "name" : "Armanul Islam",
+        "images" :"https://i.ibb.co/kBVKtVK/1608733312714.png",
+        "type" : "Manager",
+        "fullDescription" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },    
+    {   
+        "id" : 4,
+        "name" : "AB.Jhon ",
+        "images" :"https://i.ibb.co/10CtThX/manager.jpg",
+        "type" : "Developer",
+        "fullDescription" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {   
+        "id" : 5,
+        "name" : "Armanul Islam",
+        "images" :"https://i.ibb.co/kBVKtVK/1608733312714.png",
+        "type" : "Manager",
+        "fullDescription" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {   
+        "id" : 6,
+        "name" : "AB.Jhon ",
+        "images" :"https://i.ibb.co/10CtThX/manager.jpg",
+        "type" : "Developer",
+        "fullDescription" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {   
+        "id" : 7,
+        "name" : "Armanul Islam",
+        "images" :"https://i.ibb.co/kBVKtVK/1608733312714.png",
+        "type" : "Manager",
+        "fullDescription" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {   
+        "id" : 8,
+        "name" : "AB.Jhon ",
+        "images" :"https://i.ibb.co/10CtThX/manager.jpg",
+        "type" : "Developer",
+        "fullDescription" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    }
+   
+  ]

@@ -1,0 +1,39 @@
+.event-area nav li{
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.event-area nav .active{
+    color: red;
+}
+
+.event-area nav .active::after{
+    content: "";
+    width: 80%;
+    margin: 0 auto;
+    height: 2px;
+    background-color: rgb(255, 69, 101);
+    display: block;
+}
+.event-area .card{
+    border: none;
+}
+.event-area .card-img-top{
+    width: 80%;
+    display: block;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.event-area div > a{
+    color: #000;
+}
+
+.event-area div > a:hover{
+    text-decoration: none;
+}
+
+.event-area .card:hover{
+    box-shadow: 0 5px 13px 0px #eae8e87a;
+}

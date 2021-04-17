@@ -1,0 +1,80 @@
+
+.animation {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(3, 41, 8);
+}
+.animation {
+    overflow: hidden;
+    background: #02351d;
+  }
+.animation {
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu,
+      roboto, noto, segoe ui, arial, sans-serif;
+    background: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+  }
+
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5 {
+    position: absolute;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    will-change: transform;
+  }
+  
+  .card1 {
+    min-width: 60ch;
+    min-height: 60ch;
+    width: 45vw;
+    height: 45vw;
+    max-width: 100ch;
+    max-height: 100ch;
+    background-image: url(https://i.ibb.co/948cGtG/mahdi-b7gj-IMz-LJZc-unsplash.jpg);
+  }
+  
+  .card2 {
+    width: 25ch;
+    height: 25ch;
+    background-image: url(https://i.ibb.co/k1T8dWh/neonbrand-Pfa7-Soh0euw-unsplash.jpg);
+  }
+  
+  .card3 {
+    opacity: 0.9;
+    width: 25ch;
+    height: 25ch;
+    background-image: url(https://i.ibb.co/6F7vQ0c/korie-cull-YXdrb9qr8cs-unsplash.jpg);
+  }
+  
+  .card4 {
+    width: 25ch;
+    height: 25ch;
+    background-image: url(https://i.ibb.co/yBcff78/christina-wocintechchat-com-rg1y72e-Kw6o-unsplash.jpg);
+  }
+  .card5 {
+    opacity: 0.9;
+    width: 25ch;
+    height: 25ch;
+    background-image: url(https://i.ibb.co/zPyfsst/sam-moqadam-uga-Ok9-Lkm-QY-unsplash.jpg);
+  }
+  .container-anima {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

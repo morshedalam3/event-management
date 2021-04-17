@@ -9,10 +9,11 @@ const Books = ({data}) => {
         <>
              <div className="col-md-3 mb-4">
                 <div className="card text-center">
-                    {/* <img src={images} alt="" className="card-img-top"/> */}
+                    <button>update status</button>
+                    <img src={data.service.images} alt="" className="card-img-top"/>
                     <div className="card-body">
-                        <h5>{data.shipments.name}</h5>
-                        <h5>{data.service.name}</h5>
+                        <h5>Name: {data.shipments.name}</h5>
+                        <p>Service: {data.service.name}</p>
                     </div>
                 </div>
         </div>

@@ -25,64 +25,66 @@ import Contact from './components/Contact/Contact'
 import FooterTop from './components/FooterTop/FooterTop'
 import OrderList from "./components/OrderList/OrderList";
 import UserBook from "./components/UserBook/UserBook";
+import PhotoGallery from "./components/PhotoGallery/PhotoGallery";
 
 export const UserContext = createContext();
 export default function App() {
   const [loggedInUser, setLoggedInUser] = useState({});
   return (
     <UserContext.Provider value={[loggedInUser, setLoggedInUser]}>
-    <Router>
-       <div className="main">
-        <Switch>
-       
-          <Route exact path="/">
-            <Header/>
-        <Banner></Banner>
-        <Events/>
-        <BookArea/>
-        <EventSpeaker/>
-        <GetReview/>
-        <Contact/>
-        <FooterTop/>
-        <Footer/>
-          </Route>
-          <Route path="/event/:_id">
-           <EventDetails/>
-          </Route>
-          <PrivateRoute path="/shipment/:_id">
-           <Shipment></Shipment>
-          </PrivateRoute>
-          <PrivateRoute path="/shipment">
-           <Shipment></Shipment>
-          </PrivateRoute>
-          <Route path="/dashboard">
-            <DashBoard/>
-          </Route>
-          <Route path="/review">
-            <AddReview></AddReview>
-          </Route>
-          <Route path="/orderList">
-            <OrderList/>
-          </Route>
-          <PrivateRoute path="/admin">
-            <Admin></Admin>
-          </PrivateRoute>
-          <Route path="/inventory">
-          <Inventory/>
-          <Footer/>
-          </Route>
-          <Route path="/userBookList">
-          <UserBook/>
-          </Route>
-          <Route path="/login">
-            <Login />
-          </Route>
-          <Route path="/manageService">
-            <ManageService/>
-          </Route>
-        </Switch>
+      <Router>
+        <div className="main">
+          <Switch>
+
+            <Route exact path="/">
+              <Header />
+              <Banner></Banner>
+              <Events />
+              <BookArea />
+              <EventSpeaker />
+              <GetReview />
+              <PhotoGallery />
+              <Contact />
+              <FooterTop />
+              <Footer />
+            </Route>
+            <Route path="/event/:_id">
+              <EventDetails />
+            </Route>
+            <PrivateRoute path="/shipment/:_id">
+              <Shipment></Shipment>
+            </PrivateRoute>
+            <PrivateRoute path="/shipment">
+              <Shipment></Shipment>
+            </PrivateRoute>
+            <PrivateRoute path="/dashboard">
+              <DashBoard />
+            </PrivateRoute>
+            <Route path="/review">
+              <AddReview></AddReview>
+            </Route>
+            <Route path="/orderList">
+              <OrderList />
+            </Route>
+            <PrivateRoute path="/admin">
+              <Admin></Admin>
+            </PrivateRoute>
+            <Route path="/inventory">
+              <Inventory />
+              <Footer />
+            </Route>
+            <Route path="/userBookList">
+              <UserBook />
+            </Route>
+            <Route path="/login">
+              <Login />
+            </Route>
+            <Route path="/manageService">
+              <ManageService />
+            </Route>
+          </Switch>
         </div>
-    </Router>
+      </Router>
     </UserContext.Provider>
   );
 }

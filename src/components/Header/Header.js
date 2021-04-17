@@ -13,7 +13,7 @@ const Header = () => {
                
                 <ul className="navbar-nav align-items-center">
                     <li className="nav-item">
-                             <Link to="/admin" className="nav-link">DashBoard</Link> 
+                             <Link to="/dashboard" className="nav-link">DashBoard</Link> 
                     </li>
                     <li className="nav-item">
                             <Link to="/login" className="nav-link">

@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import Book from './Book';
+import Loading from '../Loading/Loading';
 
 const BookArea = () => {
     const[events, setEvents] = useState([]);
+    const[isLoading, setIsLoading] = useState(true);
     console.log(events)
     useEffect(() => {
         fetch('https://immense-hamlet-65512.herokuapp.com/events')
@@ -11,8 +12,13 @@ const BookArea = () => {
         .then(data => {
             setEvents(data);
         })
-        .catch(err => console.log(err))
+        setIsLoading(false)
+        // .catch(err => console.log(err))
+        // setIsLoading(false)
     } ,[])
+    if(isLoading){
+        return <Loading/>
+    }
     return (
         <div className="container">
             <h1>Don't forget Book your Room</h1>

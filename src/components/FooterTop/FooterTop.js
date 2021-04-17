@@ -16,14 +16,14 @@ const FooterTop = () => {
               <ul>
                 <li><Link to="/">About Online Event</Link></li>
                 <li><Link to="/">Read Our Blog</Link></li>
-                <li><Link to="/">Sign up to deliver</Link></li>
+                <li><Link to="/">Sign up to book</Link></li>
                 <li><Link to="/">Add your plan</Link></li>
               </ul>
             </div>
             <div>
               <ul>
                 <li><Link to="/">Get help</Link></li>
-                <li><Link to="/">Red FAQs</Link></li>
+                <li><Link to="/">Event FAQs</Link></li>
                 <li><Link to="/">View all Event</Link></li>
                 <li><Link to="/">Hotel near me</Link></li>
               </ul>

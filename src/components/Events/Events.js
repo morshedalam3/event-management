@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import EventType from '../EventType/EventType';
+import Loading from '../Loading/Loading';
 import './Events.css'
 
 const Events = () => {
@@ -22,6 +23,7 @@ const Events = () => {
     return (
         <section className="event-area my-5">
             <div className="container">
+                {events.length === 0 && <Loading/>}
                 <nav>
                     <ul className="nav justify-content-center">
                         <li onClick={() => setSelectedEventType("Festival")} className="nav-item">

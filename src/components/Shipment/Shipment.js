@@ -54,7 +54,7 @@ const Shipment = () => {
     return (
      <section className="container-fluid row">
          <Sidebar/>
-            <div className="shipment row">
+            <div className="shipment row container col-md-6 my-5">
         <div style={{display: shippingData ? 'none': 'block'}} className="col-md-6">
         <form className="ship-form" onSubmit={handleSubmit(onSubmit)}>
         {/* <input name="example" defaultValue="test" ref={register} /> */}

@@ -47,7 +47,7 @@ const AddReview = () => {
     return (
         <section className="container-fluid row">
           <Sidebar></Sidebar>
-         <div className="container">
+         <div className="container col-md-6 my-5">
          <form onSubmit={handleSubmit(onSubmit)}>
                 <Form>
                     <Form.Row>

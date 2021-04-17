@@ -15,7 +15,7 @@ const breakPoints = [
 const EventSpeaker = () => {
     return (
         <>
-        <h1 style={{ marginLeft: "100px"}}> <span style={{fontFamily:"Impact, 'Arial Narrow Bold', sans-serif"}}>EVENT SPEAKERS</span>/ meet with greaters</h1>
+        <h1 className="text-center my-5" style={{ marginLeft: "100px"}}> <span style={{fontFamily:"Impact, 'Arial Narrow Bold', sans-serif"}}>EVENT SPEAKERS</span>/ meet with greaters</h1>
         <div className="App">
           <Carousel breakPoints={breakPoints}>
             <Item>

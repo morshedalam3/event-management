@@ -20,7 +20,7 @@ const UserBook = () => {
     return (
         <section className="container-fluid row">
           <Sidebar/>
-          <div className="container">
+          <div className="container col-md-6 my-5">
           {isLoading? <div class="d-flex justify-content-center">
                     <div class="spinner-border" role="status">
                         <span class="visually-hidden"></span>

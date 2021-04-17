@@ -17,7 +17,7 @@ const OrderList = () => {
     return (
         <section className="container-fluid row">
          <Sidebar/>
- <div className="container">
+ <div className="container col-md-6 my-5">
         <div className="row">
             <table class="table table-dark table-striped">
                 <thead>

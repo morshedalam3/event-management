@@ -33,7 +33,7 @@ console.log(isAdmin);
                 </Link>
             </li>
             <li>
-                    <Link to="/shipment" className="text-white">
+                    <Link to="/" className="text-white">
                         <FontAwesomeIcon icon={faCalendar} /> <span>Book</span>
                     </Link>
                 </li>

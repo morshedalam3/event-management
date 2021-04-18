@@ -15,7 +15,7 @@ const PhotoGallery = () => {
     const [props, set] = useSpring(() => ({ xy: [0, 0], config: { mass: 10, tension: 550, friction: 140 } }))
     return (
         <>
-            <h1 className="text-center my-5">Recent Photo</h1>
+            <h1 className="text-center my-5">Recent Event</h1>
             <div className="animation">
                 <div className="container-anima" onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}>
                     <animated.div className="card1" style={{ transform: props.xy.interpolate(trans1) }} />

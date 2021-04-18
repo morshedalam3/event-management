@@ -5,7 +5,7 @@ import Logo from '../../image/neerlogo.png';
 const Header = () => {
 
     return (
-        <nav className="navbar navbar-expand navbar-light bg-dark py-2 fixed-top">
+        <nav className="navbar navbar-expand navbar-light bg-warning py-2 fixed-top">
             <div className="container">
                 <Link to="/" className="navbar-brand">
                     <img src={Logo} alt="Hot Onion Logo"/>

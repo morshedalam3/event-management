@@ -1,0 +1,4 @@
+.box:hover {
+    transform:scale3d(1);
+    -o-transition-duration: 0.5s;
+}

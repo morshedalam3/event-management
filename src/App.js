@@ -26,6 +26,7 @@ import FooterTop from './components/FooterTop/FooterTop'
 import OrderList from "./components/OrderList/OrderList";
 import UserBook from "./components/UserBook/UserBook";
 import PhotoGallery from "./components/PhotoGallery/PhotoGallery";
+import TopBanner from "./components/TopBanner/TopBanner";
 
 export const UserContext = createContext();
 export default function App() {
@@ -35,10 +36,9 @@ export default function App() {
       <Router>
         <div className="main">
           <Switch>
-
             <Route exact path="/">
               <Header />
-              <Banner></Banner>
+              <TopBanner/>
               <Events />
               <BookArea />
               <EventSpeaker />
@@ -52,9 +52,6 @@ export default function App() {
               <EventDetails />
             </Route>
             <PrivateRoute path="/shipment/:_id">
-              <Shipment></Shipment>
-            </PrivateRoute>
-            <PrivateRoute path="/shipment">
               <Shipment></Shipment>
             </PrivateRoute>
             <PrivateRoute path="/dashboard">

@@ -36,4 +36,7 @@
 
 .event-area .card:hover{
     box-shadow: 0 5px 13px 0px #eae8e87a;
+        transform:scale3d(1);
+        transition-duration: 0.5s;
+
 }

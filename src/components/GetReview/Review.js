@@ -1,10 +1,11 @@
 import React from 'react';
 import { Col, Image } from 'react-bootstrap';
+import './Review.css'
 
 const Review = ({data}) => {
     const {name,description,images} = data;
     return (
-        <div className="col-md-4 mb-4">
+        <div className="col-md-4 mb-4 box-area">
                 <div className="card">
                     {/* <img src={images} alt="" className="card-img-top"/> */}
                     <div className="card-body">

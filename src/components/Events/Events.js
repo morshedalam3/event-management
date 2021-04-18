@@ -38,7 +38,7 @@ const Events = () => {
                     </ul>
                 </nav>
 
-                <div className="row my-5">
+                <div className="row my-5 box">
                     {
                         selectedEvent.map(event => <EventType key={event.id}  event={event} />)
                     }

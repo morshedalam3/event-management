@@ -1,7 +1,6 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
 import Item from "./Item";
-import Developer from "../../image/1608733312714.png"
 import "./EventSpeaker.css";
 
 
@@ -20,49 +19,49 @@ const EventSpeaker = () => {
           <Carousel breakPoints={breakPoints}>
             <Item>
                 <div className="text-center">
-                <img style={{width:'90%'}} src={Developer} alt=""/>
+                <img style={{width:'90%'}} src="https://i.ibb.co/W017svJ/1608733312714.png" alt=""/>
                 <h3>Karimul Haque <span>(manager)</span></h3>
                 </div>
              </Item>
              <Item>
                 <div className="text-center">
-                <img style={{width:'90%'}} src={Developer} alt=""/>
+                <img style={{width:'90%'}} src="https://i.ibb.co/W017svJ/1608733312714.png" alt=""/>
                 <h3>Karimul Haque <span>(developer)</span></h3>
                 </div>
              </Item>
              <Item>
                 <div className="text-center">
-                <img style={{width:'90%'}} src={Developer} alt=""/>
+                <img style={{width:'90%'}} src="https://i.ibb.co/W017svJ/1608733312714.png" alt=""/>
                 <h3>Karimul Haque <span>(developer)</span></h3>
                 </div>
              </Item>
              <Item>
                 <div className="text-center">
-                <img style={{width:'90%'}} src={Developer} alt=""/>
+                <img style={{width:'90%'}} src="https://i.ibb.co/W017svJ/1608733312714.png" alt=""/>
                 <h3>Karimul Haque <span>(manager)</span></h3>
                 </div>
              </Item>
              <Item>
                 <div className="text-center">
-                <img style={{width:'90%'}} src={Developer} alt=""/>
+                <img style={{width:'90%'}} src="https://i.ibb.co/W017svJ/1608733312714.png" alt=""/>
                 <h3>Karimul Haque <span>(manager)</span></h3>
                 </div>
              </Item>
              <Item>
                 <div className="text-center">
-                <img style={{width:'90%'}} src={Developer} alt=""/>
+                <img style={{width:'90%'}} src="https://i.ibb.co/W017svJ/1608733312714.png" alt=""/>
                 <h3>Karimul Haque <span>(developer)</span></h3>
                 </div>
              </Item>
              <Item>
                 <div className="text-center">
-                <img style={{width:'90%'}} src={Developer} alt=""/>
+                <img style={{width:'90%'}} src="https://i.ibb.co/W017svJ/1608733312714.png" alt=""/>
                 <h3>Karimul Haque <span>(manager)</span></h3>
                 </div>
              </Item>
              <Item>
                 <div className="text-center">
-                <img style={{width:'90%'}} src={Developer} alt=""/>
+                <img style={{width:'90%'}} src="https://i.ibb.co/W017svJ/1608733312714.png" alt=""/>
                 <h3>Karimul Haque <span>(manager)</span></h3>
                 </div>
              </Item>

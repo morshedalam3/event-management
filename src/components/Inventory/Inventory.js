@@ -13,7 +13,9 @@ const Inventory = () => {
         const productData = {
             name: data.name,
             type: data.type,
-            description: data.description,
+            fullDescription: data.fullDescription,
+            shortDescription:data.shortDescription,
+            price:data.price,
             images: imageUrl
         }
         const url = `https://immense-hamlet-65512.herokuapp.com/addevent`
@@ -63,12 +65,22 @@ const Inventory = () => {
                             <Form.Control name="type" placeholder="Type" ref={register} />
                         </Col>
                     </Form.Row>
+                    <Form.Row>
+                        <Col>
+                            <Form.Label>short description</Form.Label>
+                            <Form.Control name="shortDescription" placeholder="Short tittle" ref={register} />
+                        </Col>
+                        <Col>
+                            <Form.Label>Price</Form.Label>
+                            <Form.Control name="price" placeholder="Price" ref={register} />
+                        </Col>
+                    </Form.Row>
                 </Form>
                 <Form>
                     <Form.Row>
                         <Col>
                             <br /><br /><Form.Label>Service description</Form.Label>
-                            <Form.Control name="description" placeholder="Id" ref={register} />
+                            <Form.Control name="fullDescription" placeholder="description" ref={register} />
                         </Col>
                         <Col>
                             <br /><input className="file btn btn-lg primary" name="file" type="file" onChange={handleImageUpload} />
